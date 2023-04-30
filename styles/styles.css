@@ -1,0 +1,76 @@
+.footer-section {
+  background-color: white;
+}
+
+/* Размеры и позицтонирование блоков */
+header {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #DCDCDC;
+}
+
+main {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #FFEBCD;
+}
+
+.main-info {
+  display: flex;
+  justify-content: center;
+}
+
+#blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.block {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: #DEB887;
+}
+
+#block1,
+#block2 {
+  width: 45%
+}
+
+#block3 {
+  width: 100%
+}
+
+aside {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  background-color: #8FBC8F;
+}
+
+footer {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #DCDCDC;
+}
+
+.footer-section {
+  height: 40px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
